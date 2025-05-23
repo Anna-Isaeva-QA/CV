@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF -1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Исаева - QA Engineer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #333333); /* Темные оттенки фона */
+            color: #ffffff; /* Светлый текст */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6; /* Увеличенный межстрочный интервал */
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* Полупрозрачный фон для заголовка */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Georgia', serif; /* Элегантный шрифт для заголовка */
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(42, 42, 42, 0.9); /* Полупрозрачный фон для контейнера */
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s; /* Плавная анимация при наведении */
+        }
+        .container:hover {
+            transform: scale(1.02); /* Увеличение контейнера при наведении */
+        }
+        .photo {
+            flex: 1;
+            margin-right: 20px;
+            margin-top: 1cm; /* Опускаем фотографию на 5 см ниже */
+            border-radius: 15px;
+            overflow: hidden; /* Обрезаем изображение по границе контейнера */
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s; /* Плавная анимация для изображения */
+        }
+        .photo img:hover {
+            transform: scale(1.05); /* Увеличение изображения при наведении */
+        }
+        .info {
+            flex: 2;
+        }
+        .info h1 {
+            font-size: 2.5em; /* Увеличенный размер заголовка */
+            margin: 0;
+            color: #ffffff; /* Изменён цвет подзаголовка на белый */
+        }
+        .info h2 {
+            font-size: 1.8em; /* Увеличенный размер подзаголовка */
+            color: #ffffff; /* Изменён цвет подзаголовка на белый */
+        }
+        .quote {
+            font-style: italic;
+            color: #ffffff; /* Цвет цитаты изменён на белый */
+            margin-bottom: 20px; /* Отступ снизу для цитаты */
+        }
+        .contacts a {
+            color: #ffffff; /* Цвет ссылок изменён на белый */
+            text-decoration: none; /* Убираем подчёркивание */
+        }
+        .contacts a {
+            color: #ffffff; /* Цвет ссылок изменён на белый */
+            text-decoration: none; /* Убираем подчёркивание */
+        }
+        .contacts a:hover {
+            text-decoration: underline; /* Подчёркивание при наведении */
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills h3 {
+            color: #ffffff; /* Цвет заголовка навыков изменён на белый */
+            border-bottom: 2px solid #ffffff; /* Подчёркнутый заголовок */
+            padding-bottom: 10px; /* Отступ снизу */
+        }
+        .skills ul {
+            list-style-type: none; /* Убираем маркеры списка */
+            padding-left: 0; /* Убираем отступы */
+        }
+        .skills li {
+            margin-bottom: 10px; /* Отступ между пунктами списка */
+            position: relative; /* Для псевдоэлемента */
+            padding-left: 25px; /* Отступ слева для текста */
+        }
+        .skills li::before {
+            content: '✔️'; /* Знак перед каждым пунктом списка */
+            position: absolute;
+            left: 0;
+            color: #ffffff; /* Цвет знака изменён на белый */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+   
+</header>
+<div class="container">
+    <div class="photo">
+        <!-- Здесь должна быть фотография Анны -->
+        <img src="anna_isaeva.jpg" alt="Фотография Анны Исаевой">
+    </div>
+    <div class="info">
+        <h1>Анна Исаева</h1>
+        <h2>QA Engineer</h2>
+        <p class="quote">«Путь к совершенству лежит через проверку каждой мелочи»</p>
+        <div class="contacts">
+            <strong>Контакты:</strong><br>
+            Email: isaeva_anna_sergeevna@mail.ru<br>
+            <p>Telegram: <a href="https://t.me/I_AnnaIsaeva_I" target="_blank">@I_AnnaIsaeva_I </a></p>
+            
+            
+        </div>
+        <div class="skills">
+            <h3>Навыки:</h3>
+            <ul>
+                <li>Ручное функциональное тестирование</li>
+                <li>Написание тест-кейсов и чек-листов</li>
+                <li>Работа с баг-трекерами (Jira, Yandex Tracker)</li>
+                <li>Опыт тестирования мобильных приложений (Charles)</li>
+                <li>Знание SQL и баз данных</li>
+                <li>Работа с API (Postman, Swagger)</li>
+                <li>Тестирование front-части web-приложений (DevTools)</li>
+                <li>Тестирование user-interface front-end(Figma)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
